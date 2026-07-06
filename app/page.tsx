@@ -1,6 +1,7 @@
 import React from 'react'
 import {ArrowRight} from 'lucide-react'
 import ThirdSection from '@/components/shared/ThirdSection'
+import BackgroundIllustration from '@/components/shared/BackgroundIllustration'
 function page() {
   return (
     <div className="relative flex items-center max-w-[1900px]" >
@@ -30,8 +31,8 @@ function page() {
 
           </div>
         </section>
-        <section className="h-screen w-full relative flex"> 
-
+        <section className="h-screen w-full relative flex relative"> 
+              <BackgroundIllustration className="-top-100 -right-20 b" height={1100} width={900} />
           <div className="absolute h-full w-full -top-100 ">
             <img src="media/experience-bg-highlight.png" alt="section-highlight" className=" w-full" />
           </div>
