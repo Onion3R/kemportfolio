@@ -18,14 +18,14 @@
   :root {
     --background: #0a0a0a;
     --secondary: #1e1e1e;
-    --foreground: #ededed;
+    --foreground: #8d8d8d;
     --border: rgba(255, 255, 255, 0.682);
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: rgb(225, 225, 225);
   font-family: var(--font-inter) !important;
 }
 
@@ -35,7 +35,7 @@ h1 {
 
 p {
   font-size: 20px;
-  color: var(--secondary);
+  color: var(--foreground);
 }
 
 .flex-center {
