@@ -8,6 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --color-border: var(--border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -15,7 +17,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+    --secondary: #1e1e1e;
     --foreground: #ededed;
+    --border: rgba(255, 255, 255, 0.682);
   }
 }
 
@@ -30,7 +34,8 @@ h1 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 20px;
+  color: var(--secondary);
 }
 
 .flex-center {
