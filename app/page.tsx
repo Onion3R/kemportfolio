@@ -2,6 +2,7 @@ import React from 'react'
 import { ArrowRight } from 'lucide-react'
 import ThirdSection from '@/components/shared/ThirdSection'
 import BackgroundIllustration from '@/components/shared/BackgroundIllustration'
+import TestimonialSection from '@/components/shared/TestimonialSection'
 function page() {
   return (
     <div className="relative flex items-center max-w-[1900px] overflow-hidden" >
@@ -65,7 +66,7 @@ function page() {
               <div className="bg-primary h-[400px] w-200 filter blur-[150px] rounded-b-full absolute left-9 top-2 " />
               <div className="card w-[80%] relative z-1">
                 <h2 className="text-4xl">Content &  Creative Strategy</h2>
-                <p className="w-3/4 mt-5 text-2xl!">We deliver multi-platform content mapping, messaging frameworks from awareness to acquisition, ad creative direction with copy development, and short-form brand storytelling strategies.</p>
+                <p className="w-3/4 mt-5 text-2xl!">I deliver multi-platform content mapping, messaging frameworks from awareness to acquisition, ad creative direction with copy development, and short-form brand storytelling strategies.</p>
 
                 <div className="flex gap-4 mt-30">
                   <img src="media/logo-1.png" alt="Content & Creative Strategy" className="w-1/3" />
@@ -79,7 +80,7 @@ function page() {
             <div id="second-service-container" className="w-full relative  min-h-screen flex items-end justify-center">
               <div className="card w-[80%] relative z-1">
                 <h2 className="text-4xl">Funnel Architecture & Conversion Systems</h2>
-                <p className="w-2/4 mt-5 text-2xl!">We create webinar funnels, lead magnet and tripwire funnels, optimized landing pages, booking systems, and retargeting flows aligned with funnel stages.</p>
+                <p className="w-2/4 mt-5 text-2xl!">I create webinar funnels, lead magnet and tripwire funnels, optimized landing pages, booking systems, and retargeting flows aligned with funnel stages.</p>
 
                 <div className="flex-center gap-4 mt-30 relative h-fit ">
                   <img src="media/service-2-img-1.png" alt="Funnel Architecture & Conversion Systems" className="  " />
@@ -90,7 +91,7 @@ function page() {
 
 
               </div>
-              <div className="bg-gradient-to-b from-transparent to-background w-full h-50 absolute  z-2 -bottom-10" />
+              <div className="bg-gradient-to-b from-transparent via-background to-background w-full h-50 absolute  z-2 -bottom-10" />
 
             </div>
 
@@ -99,7 +100,7 @@ function page() {
               <div className="bg-primary h-[400px] w-200 filter blur-[150px] rounded-b-full absolute left-9 bottom-50 " />
               <div className="card w-[80%] relative z-1">
                 <h2 className="text-4xl">Performance Marketing & Analytics</h2>
-                <p className="w-3/4 mt-5 text-2xl!">We manage Meta and Google Ads campaign development, testing frameworks for creative, audience, and offers, conversion tracking with attribution setup, performance dashboards with KPI reporting, and CPL, CAC, and ROAS optimization.</p>
+                <p className="w-3/4 mt-5 text-2xl!">I manage Meta and Google Ads campaign development, testing frameworks for creative, audience, and offers, conversion tracking with attribution setup, performance dashboards with KPI reporting, and CPL, CAC, and ROAS optimization.</p>
 
                 <div className="flex gap-4 mt-30 ">
                   <img src="media/service-3.png" alt="Funnel Architecture & Conversion Systems" className="h-full w-full relative -right-25 " />
@@ -110,19 +111,22 @@ function page() {
             <div id="fourth-service-container" className="w-full h-screen relative flex items-end justify-start">
               <BackgroundIllustration className="-top-50 -right-20 b" height={1000} width={1200} />
               <div className="bg-primary h-[400px] w-200 filter blur-[150px] rounded-b-full absolute right-9 top-50 " />
-              <div className="card w-[80%] relative z-1">
-                <h2 className="text-4xl">Content &  Creative Strategy</h2>
-                <p className="w-3/4 mt-5 text-2xl!">We deliver multi-platform content mapping, messaging frameworks from awareness to acquisition, ad creative direction with copy development, and short-form brand storytelling strategies.</p>
-
-                <div className="flex gap-4 mt-30">
-                  <img src="media/logo-1.png" alt="Content & Creative Strategy" className="w-1/3" />
-                  <img src="media/logo-1.png" alt="Content & Creative Strategy" className="w-1/3" />
-                  <img src="media/logo-1.png" alt="Content & Creative Strategy" className="w-1/3" />
+              <div className="card w-[80%] relative z-1 flex gap-10 ">
+                <div className="max-w-1/2">
+                  <h2 className="text-4xl">Marketing Automation & CRM Operations</h2>
+                  <p className="mt-5 text-2xl!">CRM setup and optimization, sales pipeline automation, email and SMS nurture sequences, lead segmentation, behavioral workflows, and event-based automations designed to streamline operations and improve customer engagement.</p>
+                </div>
+                <div className="flex-center gap-4 ">
+                  <img src="media/service-4-.png" alt="Marketing Automation & CRM Operations" className="h-full w-full " />
                 </div>
               </div>
               <div className="bg-gradient-to-b from-transparent to-background w-full h-50 absolute bottom- 0 z-2 bottom-0" />
             </div>
           </div>
+        </section>
+        <TestimonialSection />
+        <section className="h-screen ">
+
         </section>
       </main>
     </div>
